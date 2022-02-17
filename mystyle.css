@@ -1,0 +1,133 @@
+.my-area{
+	padding-top: 68px !important;
+}
+.bg-accent .banner{
+	padding: 20px
+} 
+.bg-accent .banner-description h3 {
+    font-size: 3.2rem;
+    color: #f86e52;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.bg-accent .banner-description h4 {
+    font-size: 3rem;
+    color: #082b3b;
+    font-weight: 600;
+}
+.bg-accent .banner-description p {
+    line-height: 2;
+    font-weight: 800;
+    font-size: 15px;
+}
+/* banner social start */
+.banner-social-icon{
+    position: relative;
+}
+.banner-social-icon ul{
+}
+.banner-social-icon ul li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;    
+}
+.banner-social-icon ul li i {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: #ddd;
+    border-radius: 50%;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+    color: #444;
+}
+.banner-social-icon ul li i:hover{
+    background-color: #de3d36;
+    color: #fff;
+    
+}
+/* Button section */
+.default-btn button{
+    padding: 0;
+}
+.default-btn button a {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    background: #eb3e36;
+    border-radius: 2px;
+    z-index: 1;
+}
+.default-btn button a::before{
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #052b3a;
+    width: 0;
+    height: 100%;
+    transition: .4s;
+    border-radius: 2px;
+    z-index: -1;
+}
+.default-btn button a:hover::before{
+    width: 100%;
+}
+/* Service Section start here  */
+.service-title{}
+.service-title h1 {
+    font-size: 3.5rem;
+    color: #082b3b;
+    font-weight: 600;
+}
+.service-title p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.process-item {
+    text-align: center;
+    background: #fff;
+    padding: 30px 16px;
+    margin-bottom: 27px;
+    box-shadow: 1px 1px 30px 3px #999;
+    transition: .4s;
+    border-radius: 4px;
+}
+.process-item:hover{
+    background-color: #eb3e36;  
+}
+.process-item span i {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #ddd;
+    border-radius: 50%;
+    color: #eb3e36;
+    font-size: 3.2rem;
+}
+.process-content h4 {
+    font-size: 2.2rem;
+    color: #082b3b;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.process-content p {
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 1.6rem;
+}
+.process-item:hover .process-content{
+    color: #fff;
+}
+.process-item:hover .process-content h4{
+    color: #fff;
+}
+/* Service Section End here  */

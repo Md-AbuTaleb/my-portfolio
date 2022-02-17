@@ -1,0 +1,23 @@
+.login-section{
+    background-image: linear-gradient(to right, #41c86e, #621879);
+}
+.form-section form{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+}
+.our-btn{
+    border: 1px solid #ccc;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 2px;
+    transition: .4s;
+    padding: 5px 15px;
+}
+.our-btn:hover{
+    border: 1px solid #ccc;
+    color: #fff;
+    background-color: #41c86e;
+    border-radius: 2px;
+}
